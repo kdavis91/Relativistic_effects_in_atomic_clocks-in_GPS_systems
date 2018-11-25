@@ -1,2 +1,6 @@
 # Relativistic_effects_in_atomic_clocks-in_GPS_systems
  Relativistic error analysis for the Global Positioning System
+ 
+To determine its location, the GPS receiver uses the time at which each signal from a satellite was emitted, as determined by the on-board atomic clock and encoded into the signal, together the with speed of light, to calculate the distance between itself and the satellites it communicated with. The orbit of each satellite is known accurately. Given enough satellites, it is a simple problem in Euclidean geometry to compute the receiver's precise location, both in space and time. To achieve a navigation accuracy of 15 meters, time throughout the GPS system must be known to an accuracy of 50 nanoseconds, which simply corresponds to the time required for light to travel 15 meters.
+
+But at 38 microseconds per day, the relativistic offset in the rates of the satellite clocks is so large that, if left uncompensated, it would cause navigational errors that accumulate faster than 10 km per day! GPS accounts for relativity by electronically adjusting the rates of the satellite clocks, and by building mathematical corrections into the computer chips which solve for the user's location. Without the proper application of relativity, GPS would fail in its navigational functions within about 2 minutes.
